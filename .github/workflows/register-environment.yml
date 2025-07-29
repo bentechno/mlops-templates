@@ -21,7 +21,7 @@ on:
         default: ""
         type: string
     secrets:
-      creds:
+      AZURE_CREDENTIALS:
         required: true
 jobs:
   register-environment:
