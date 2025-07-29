@@ -20,7 +20,7 @@ on:
         required: true
         type: string
     secrets:
-      creds:
+      AZURE_CREDENTIALS:
         required: true
 jobs:
   register-dataset:
