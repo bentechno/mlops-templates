@@ -25,7 +25,7 @@ on:
         required: false
         type: string
     secrets:
-      creds:
+      AZURE_CREDENTIALS:
         required: true
 jobs:
   create-compute:
